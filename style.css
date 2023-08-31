@@ -1,0 +1,13 @@
+/*kommentaar*/
+header{
+    color: firebrick;
+    background-color: lightgoldenrodyellow;
+    width: 60%;
+
+}
+header h1{
+    font-family: Algerian;
+    font-size: larger;
+    letter-spacing: 0.3cm;
+    border-bottom: solid 1pt black; /*dotted dashed double*/
+}
