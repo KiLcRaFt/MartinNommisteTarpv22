@@ -11,3 +11,75 @@ header h1{
     letter-spacing: 0.3cm;
     border-bottom: solid 1pt black; /*dotted dashed double*/
 }
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: blue;
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-right: solid 1px rosybrown;
+    font-variant: small-caps;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0; /*väline vahe elementst отступ*/
+    padding: 0; /* пространство во круг элемента */
+    overflow: hidden;
+    background-color: lightgoldenrodyellow;
+}
+li a:hover{
+    background-color: azure;
+    color: black;
+    text-decoration: underline;
+}
+.nimekiri{
+    list-style-type: circle;
+    margin: 0; /*väline vahe elementst отступ*/
+    padding: 20px; /* пространство во круг элемента */
+    background-color: lightgoldenrodyellow;
+}
+img#pilt1{
+    width: 20%;
+}
+img#pilt2 {
+    width: 30%;
+    border: dotted 2pt;
+}
+img#pilt3 {
+    width: 40%;
+    border: solid crimson 3pt;
+    border-radius: 60pt;
+
+}
+main{
+    background-color: burlywood;
+}
+section#section1{
+    font-size: 20pt;
+    border-top: solid black 5px;
+    border-bottom: dotted darkred 10px;
+    text-decoration: revert;
+}
+section#section2{
+    background-color: lightcoral;
+    width: 60%;
+    border: 15px black;
+    padding: 50px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+section#section3{
+    width: 90%;
+    border: solid black 2pt;
+    background-color: lightyellow;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
