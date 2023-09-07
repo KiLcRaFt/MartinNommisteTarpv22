@@ -1,0 +1,57 @@
+table#Tabel1{
+    border: solid 1pt;
+    width: 60%;
+    text-align: center;
+}
+table#Tabel2{
+    border: solid 1pt red;
+    width: 40%;
+    text-align: center;
+}
+table#Tabel3{
+    border: solid 1pt cyan;
+    width: 40%;
+    height: 200pt;
+    text-align: center;
+}
+table#Tabel4{
+    border: solid 1pt cyan;
+    width: 40%;
+    height: 200pt;
+    text-align: center;
+}
+td{
+   border: solid 1pt;
+}
+td#t4td1{
+    border: solid 1pt;
+    background-color: cyan;
+}
+td#t4td2{
+    border: solid 1pt;
+    background-color: red;
+}
+td#t4td3{
+    border: solid 1pt;
+    background-color: green;
+}
+td#t4td4{
+    border: solid 1pt;
+    background-color: blueviolet;
+}
+td#t4td5{
+    border: solid 1pt;
+    background-color: darkslategrey;
+}
+td#t4td6{
+    border: solid 1pt;
+    background-color: yellow;
+}
+td#t4td7{
+    border: solid 1pt;
+    background-color: hotpink;
+}
+td#t4td8{
+    border: solid 1pt;
+    background-color: navy;
+}
