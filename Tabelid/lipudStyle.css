@@ -188,22 +188,28 @@ table#TARpv22{
     top: 480px;
 }
 
-#TARpv22 tr:nth-child(1) td:nth-child(1),
-#TARpv22 tr:nth-child(3) td:nth-child(1),
-#TARpv22 tr:nth-child(2) td:nth-child(1),
-#TARpv22 tr:nth-child(2) td:nth-child(3),
-#TARpv22 tr:nth-child(4) td:nth-child(1),
-#TARpv22 tr:nth-child(5) td:nth-child(1),
-#TARpv22 tr:nth-child(5) td:nth-child(3){
+/*2 rida 2 laher*/
+#TARpv22 tr:nth-child(2) td:nth-child(2){
     background-color: darkred;
     border: 0;
 }
-
-#TARpv22 tr:nth-child(2) td:nth-child(2),
-#TARpv22 tr:nth-child(4) td:nth-child(2),
-#TARpv22 tr:nth-child(5) td:nth-child(2){
-    background-color: grey;
+/*4 rida 4 ja 5 laher*/
+#TARpv22 tr:nth-child(4) td:nth-child(4),
+#TARpv22 tr:nth-child(4) td:nth-child(5){
+    background-color: darkred;
+    border: 0;
+    width: 20%;
+    height: 10%;
+}
+/*5 rida 4 laher*/
+#TARpv22 tr:nth-child(5) td:nth-child(4){
+    background-color: darkred;
+    border: 0;
+    width: 10%;
+}
+/*5 rida 5 laher*/
+#TARpv22 tr:nth-child(5) td:nth-child(5){
+    background-color: whitesmoke;
     border: 0;
 }
-
 
