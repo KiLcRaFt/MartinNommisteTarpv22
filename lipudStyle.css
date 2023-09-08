@@ -1,0 +1,215 @@
+/*Eesti lipp*/
+td{
+   border: solid 1pt;
+}
+table#eesti{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+/*esimene rida*/
+#eesti tr:nth-child(1){
+    background-color: navy;
+    border: 0px;
+}
+/*teine rida*/
+#eesti tr:nth-child(2){
+    background-color: black;
+    border: 0px;
+}
+/*kolmas rida*/
+#eesti tr:nth-child(3){
+    background-color: whitesmoke;
+    border: 0px;
+}
+
+/*Saksa lipp*/
+table#saksa{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 480px;
+    top: 100px;
+}
+#saksa tr:nth-child(1){
+    background-color: black;
+    border: 0px;
+}
+/*teine rida*/
+#saksa tr:nth-child(2){
+    background-color: red;
+    border: 0px;
+}
+/*kolmas rida*/
+#saksa tr:nth-child(3){
+    background-color: yellow;
+    border: 0px;
+}
+
+/*Iiri lipp*/
+table#iiri{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 860px;
+    top: 100px;
+}
+/*esimene rida esimene lahter*/
+#iiri tr:nth-child(1) td:nth-child(1){
+    background-color: green;
+    border: 0px;
+}
+/*esimene rida teine lahter*/
+#iiri tr:nth-child(1) td:nth-child(2){
+    background-color: whitesmoke;
+    border: 0px;
+}
+/*esimene rida kolmas lahter*/
+#iiri tr:nth-child(1) td:nth-child(3){
+    background-color: orange;
+    border: 0px;
+}
+
+/*rootsi lipp*/
+table#rootsi{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 1240px;
+    top: 100px;
+}
+/*esimene rida esimene lahter ja kolmas rida esimene lahter*/
+#rootsi tr:nth-child(1) td:nth-child(1),
+#rootsi tr:nth-child(3) td:nth-child(1){
+    background-color: cornflowerblue;
+    width: 25%;
+    border: 0px;
+}
+/*esimene rida teine lahter ja kolmas rida teine lahter */
+#rootsi tr:nth-child(1) td:nth-child(2),
+#rootsi tr:nth-child(3) td:nth-child(2){
+    background-color: yellow;
+    width: 15%;
+    border: 0px;
+}
+/*teine rida*/
+#rootsi tr:nth-child(2) td:nth-child(1){
+    background-color: yellow;
+    height: 25%;
+    border: 0px;
+}
+
+/*esimene rida kolmas lahter ja kolmas rida kolmas lahter*/
+#rootsi tr:nth-child(1) td:nth-child(3),
+#rootsi tr:nth-child(3) td:nth-child(3){
+    background-color: cornflowerblue;
+    border: 0px;
+}
+
+/*Irland lipp*/
+table#irland{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 1660px;
+    top: 100px;
+}
+
+#irland tr:nth-child(1) td:nth-child(1),
+#irland tr:nth-child(5) td:nth-child(1){
+    background-color: navy;
+    border: 0;
+    width: 20%;
+    height: 30%;
+}
+#irland tr:nth-child(1) td:nth-child(2),
+#irland tr:nth-child(1) td:nth-child(4),
+#irland tr:nth-child(5) td:nth-child(2),
+#irland tr:nth-child(5) td:nth-child(4){
+    background-color: whitesmoke;
+    border: 0;
+    width: 5%;
+}
+
+#irland tr:nth-child(2) td:nth-child(1),
+#irland tr:nth-child(2) td:nth-child(3){
+    background-color: whitesmoke;
+    border: 0;
+    height: 5%;
+}
+#irland tr:nth-child(4) td:nth-child(1),
+#irland tr:nth-child(4) td:nth-child(3){
+    background-color: whitesmoke;
+    border: 0;
+    height: 5%;
+}
+
+#irland tr:nth-child(3) td:nth-child(1){
+    background-color: darkred;
+    border: 0;
+    height: 15%;
+}
+#irland tr:nth-child(1) td:nth-child(3),
+#irland tr:nth-child(2) td:nth-child(2),
+#irland tr:nth-child(4) td:nth-child(2),
+#irland tr:nth-child(5) td:nth-child(3){
+    background-color: darkred;
+    border: 0;
+    width: 10%;
+}
+
+#irland tr:nth-child(1) td:nth-child(5),
+#irland tr:nth-child(5) td:nth-child(5){
+    background-color: navy;
+    border: 0;
+    width: 80%;
+}
+
+table#TARpv22{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    left: 50px;
+    top: 480px;
+}
+
+/*2 rida 2 laher*/
+#TARpv22 tr:nth-child(2) td:nth-child(2){
+    background-color: darkred;
+    border: 0;
+}
+/*4 rida 4 ja 5 laher*/
+#TARpv22 tr:nth-child(4) td:nth-child(4),
+#TARpv22 tr:nth-child(4) td:nth-child(5){
+    background-color: darkred;
+    border: 0;
+    width: 20%;
+    height: 10%;
+}
+/*5 rida 4 laher*/
+#TARpv22 tr:nth-child(5) td:nth-child(4){
+    background-color: darkred;
+    border: 0;
+    width: 10%;
+}
+/*5 rida 5 laher*/
+#TARpv22 tr:nth-child(5) td:nth-child(5){
+    background-color: whitesmoke;
+    border: 0;
+}
+
